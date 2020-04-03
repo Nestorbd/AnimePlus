@@ -7,7 +7,7 @@
 
 ## Built With
 
-* [Netbeans](https://d3js.org/)
+* [Netbeans](https://netbeans.org)
 
 ## Acknowledgments
 
