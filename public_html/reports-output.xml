@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<animeList>
+<animeList xsi:schemaLocation="https://www.AnimePlus.com reports-output.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.AnimePlus.com">
     <item>
         <name>Duel Masters King</name>
         <type>TV</type>

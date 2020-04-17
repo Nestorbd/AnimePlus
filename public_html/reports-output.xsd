@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.AnimePlus.com"
+           xmlns="https://www.AnimePlus.com"
+           elementFormDefault="qualified">
+    <xs:element name="animeList" type="animeList-type"/>
+
+    <xs:complexType name="animeList-type">
+        <xs:sequence>
+            <xs:element name="item" maxOccurs="unbounded" type="item-type"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="item-type">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="type" type="type-type"/>
+            <xs:element name="date" type="date-type"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="type-type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="TV"/>
+            <xs:enumeration value="movie"/>
+            <xs:enumeration value="ONA"/>
+            <xs:enumeration value="OAV"/>
+            <xs:enumeration value="manga"/>
+            <xs:enumeration value="special"/>
+            <xs:enumeration value="omnibus"/>
+            <xs:enumeration value="anthology"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="date-type">
+      <xs:restriction base="xs:string">
+          <xs:pattern value="((19|20)\d\d)?(([-](0[1-9]|1[012]))?[-](0[1-9]|[12][0-9]|3[01]))?(\s[tT][o]\s((19|20)\d\d)?(([-](0[1-9]|1[012]))?[-](0[1-9]|[12][0-9]|3[01]))?)?"/>
+      </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

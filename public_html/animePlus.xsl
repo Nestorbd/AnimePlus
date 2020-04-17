@@ -15,7 +15,9 @@
          syntax recommendation http://www.w3.org/TR/xslt 
     -->
     <xsl:template match="/">
-        <animeList>
+        <animeList xmlns="https://www.AnimePlus.com"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="https://www.AnimePlus.com reports-output.xsd">
             <xsl:for-each select="/report/item">
                 <item>
                     <name><xsl:value-of select="name"/></name>
