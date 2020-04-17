@@ -2,12 +2,15 @@
  Historical list of anime in xml.
  
 ## Records
-* [XSL](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/animePlus.xsl)
+* [XSL - XML TO XML](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/animePlus.xsl)
 * [XML OUTPUT](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/reports-output.xml)
-
+* [XSD FOR XML OUTPUT](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/reports-output.xsd)
+* [XSL - XML TO HTML](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/AnimePlusForHTML.xsl) -- The transformation is not       100%, there is some error, working on it.
+* [HTML](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/AnimePlus.html)
 ## Built With
 
-* [Netbeans](https://netbeans.org)
+* [Netbeans](https://netbeans.org) -- Used at the beginning
+* [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/)
 
 ## Acknowledgments
 
