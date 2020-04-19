@@ -11,6 +11,9 @@
 
 * [Netbeans](https://netbeans.org) -- Used at the beginning
 * [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/)
+* [DesignLevo](https://www.designevo.com/es/logo-maker/) -- Used to make the logo
+* [BackGround Burner](https://burner.bonanza.com) -- 
+used to erase background from images
 
 ## Acknowledgments
 
