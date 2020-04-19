@@ -8,7 +8,7 @@
         Purpose of transformation follows.
 -->
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exsl="http://exslt.org/common" version="1.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"   xmlns:x="https://www.AnimePlus.com" version="1.0">
     <xsl:output method="html"/>
 
     <xsl:template match="/">
@@ -39,6 +39,7 @@
                         </h1>
                     </div>
                 </div>
+                <div class="container">
                 <table class="table">
                     <thead class="thead">
                         <tr>
@@ -54,41 +55,41 @@
                         </tr>
                     </thead>
                     <tbody id="Totals-table">
-                        <xsl:for-each select="/animeList">
+                        <xsl:for-each select="/x:animeList">
                             <tr>
                                 <td>
-                                    <xsl:value-of select="count(item)"/>
+                                    <xsl:value-of select="count(x:item)"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="count(item/type[text()='TV'])"/>
+                                    <xsl:value-of select="count(x:item/x:type[text()='TV'])"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="count(item/type[text()='movie'])"/>
+                                    <xsl:value-of select="count(x:item/x:type[text()='movie'])"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="count(item/type[text()='ONA'])"/>
+                                    <xsl:value-of select="count(x:item/x:type[text()='ONA'])"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="count(item/type[text()='OAV'])"/>
+                                    <xsl:value-of select="count(x:item/x:type[text()='OAV'])"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="count(item/type[text()='manga'])"/>
+                                    <xsl:value-of select="count(x:item/x:type[text()='manga'])"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="count(item/type[text()='special'])"/>
+                                    <xsl:value-of select="count(x:item/x:type[text()='special'])"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="count(item/type[text()='omnibus'])"/>
+                                    <xsl:value-of select="count(x:item/x:type[text()='omnibus'])"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="count(item/type[text()='anthology'])"/>
+                                    <xsl:value-of select="count(x:item/x:type[text()='anthology'])"/>
                                 </td>
                             </tr>
                         </xsl:for-each>
                     </tbody>
                 </table>
-
-
+                </div>
+<div class="container">
                 <table class="table">
                     <thead class="thead">
                         <tr>
@@ -98,22 +99,23 @@
                         </tr>
                     </thead>
                     <tbody id="anime-table">
-                        <xsl:for-each select="//item">
+                        <xsl:for-each select="//x:item">
                             <tr>
                                 <td>
-                                    <xsl:value-of select="name"/>
+                                    <xsl:value-of select="x:name"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="type"/>
+                                    <xsl:value-of select="x:type"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="date"/>
+                                    <xsl:value-of select="x:date"/>
                                 </td>
                             </tr>
                         </xsl:for-each>
 
                     </tbody>
                 </table>
+</div>
             </body>
         </html>
     </xsl:template>
