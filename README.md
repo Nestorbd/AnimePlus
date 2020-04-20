@@ -17,4 +17,4 @@ Used to erase background from images
 
 ## Acknowledgments
 
-* https://www.animenewsnetwork.com/encyclopedia/reports.xml?id=155&nlist=all. Open data for anime list.
+* [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/reports.xml?id=155&nlist=all). Open data for anime list.
