@@ -7,7 +7,7 @@
 * [XSD FOR XML OUTPUT](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/reports-output.xsd)
 * [XSL - XML TO HTML](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/AnimePlusForHTML.xsl) -- For AnimePlus.html
 * [AnimePlus.html](https://github.com/Nestorbd/AnimePlus/blob/master/public/AnimePlus.html)
-* [XSL - XML to HTML](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/AnimePlusSimpleForHTML.xsl) -- For AnimePlusSimple.html
+* [XSL - XML TO HTML](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/AnimePlusSimpleForHTML.xsl) -- For AnimePlusSimple.html
 * [AnimePlusSimple.html](https://github.com/Nestorbd/AnimePlus/blob/master/public/AnimePlusSimple.html)
 
 ### Online
