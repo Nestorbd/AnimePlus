@@ -1,0 +1,22 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right,#BA61D9, #1172C8);
+    color:white;
+}
+
+.jumbotron{
+    background-image: linear-gradient(to right,#BA61D9, #1172C8);
+    text-align: center;
+}
+.thead, #Totals-table, #anime-simple-table{
+    text-align: center;
+}
+.thead{
+    background-color: #7338CD;
+}
+.table{
+    margin-bottom: 5em;
+color:white;
+}
+

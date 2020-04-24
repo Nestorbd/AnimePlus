@@ -13,6 +13,7 @@
 
     <xs:complexType name="item-type">
         <xs:sequence>
+            <xs:element name="id" type="xs:integer"/>
             <xs:element name="name" type="xs:string"/>
             <xs:element name="type" type="type-type"/>
             <xs:element name="date" type="date-type"/>

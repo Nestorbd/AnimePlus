@@ -9,7 +9,7 @@
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:output method="xml"/>
+    <xsl:output method="xml" indent="yes"/>
 
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
@@ -20,6 +20,7 @@
                    xsi:schemaLocation="https://www.AnimePlus.com reports-output.xsd">
             <xsl:for-each select="/report/item">
                 <item>
+                    <id><xsl:value-of select="id"/></id>
                     <name><xsl:value-of select="name"/></name>
                       <type><xsl:value-of select="type"/></type>  
                       <date><xsl:value-of select="vintage"/></date>
