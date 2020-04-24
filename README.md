@@ -10,7 +10,7 @@
 * [XSL - XML TO HTML](https://github.com/Nestorbd/AnimePlus/blob/master/public_html/AnimePlusSimpleForHTML.xsl) -- For AnimePlusSimple.html
 * [AnimePlusSimple.html](https://github.com/Nestorbd/AnimePlus/blob/master/public/AnimePlusSimple.html)
 
-### Online
+### Web Sites
 * [AnimePlus](https://animeplus-f540c.web.app/AnimePlus.html)
 * [AnimePlusSimple](https://animeplus-f540c.web.app/AnimePlusSimple.html)
 
