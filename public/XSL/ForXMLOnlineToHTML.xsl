@@ -44,9 +44,10 @@
                     <table class="table">
                         <thead class="thead" >
                             <tr>
-
+<th>Nº</th>
                                 <th>Schools</th>
                                 <th>Numbers of test takers</th>
+                                <th>Address</th>
 
                             </tr>
                         </thead>
@@ -54,10 +55,16 @@
                             <xsl:for-each select="/response/row/row">
                                 <tr>
                                     <td>
+                                        <xsl:number format="1"/>
+                                    </td>
+                                    <td>
                                         <xsl:value-of select="school_name"/>
                                     </td>
                                     <td>
                                         <xsl:value-of select="number_of_test_takers"/>
+                                    </td>
+                                    <td>
+                                        <a href="{@_address}">Click</a>
                                     </td>
 
                                 </tr>
