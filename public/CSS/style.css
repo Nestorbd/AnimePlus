@@ -9,7 +9,7 @@ html, body {
     background-image: linear-gradient(to right,#BA61D9, #1172C8);
     text-align: center;
 }
-.thead, #Totals-table, #anime-simple-table{
+.thead, #Totals-table, #anime-simple-table, #Schools{
     text-align: center;
 }
 .thead{
