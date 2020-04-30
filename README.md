@@ -14,9 +14,9 @@
 * [HTML FOR XML ONLINE](https://github.com/Nestorbd/AnimePlus/blob/master/public/AnimePlusXmlOnline.html)
 
 ### Web Sites
-* [AnimePlus](https://animeplus-f540c.web.app/AnimePlus.html)
-* [AnimePlusSimple](https://animeplus-f540c.web.app/AnimePlusSimple.html)
-* [AnimePlusXMLOnline](https://animeplus-f540c.web.app/AnimePlusXmlOnline.html) -- This file doesn't match the theme of the page, but is to meet the work requirements
+* [AnimePlus](https://animeplus-f540c.firebaseapp.com/AnimePlus.html)
+* [AnimePlusSimple](https://animeplus-f540c.firebaseapp.com/AnimePlusSimple.html)
+* [AnimePlusXMLOnline](https://animeplus-f540c.firebaseapp.com/AnimePlusXmlOnline.html) -- This file doesn't match the theme of the page, but is to meet the work requirements
 
 ## Built With
 * [Netbeans](https://netbeans.org) -- Used at the beginning
