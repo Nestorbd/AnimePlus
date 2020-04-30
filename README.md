@@ -28,5 +28,5 @@ Used to erase background from images
 
 ## Acknowledgments
 
-* [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/reports.xml?id=155&nlist=all). Open data for anime list.
-* [data.cityofnewyork.us](https://data.cityofnewyork.us/api/views/zt9s-n5aj/rows.xml?accessType=DOWNLOAD). Open data for XML online.
+* [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/reports.xml?id=155&nlist=all) -- Open data for anime list.
+* [data.cityofnewyork.us](https://data.cityofnewyork.us/api/views/zt9s-n5aj/rows.xml?accessType=DOWNLOAD) -- Open data for XML online.
